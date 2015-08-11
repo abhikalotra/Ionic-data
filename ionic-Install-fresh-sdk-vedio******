@@ -1,0 +1,29 @@
+
+*****************************************  Insatll Ionic Fresh  ***********************
+
+Link :- Open -------------   https://blog.nraboy.com/2014/09/install-android-cordova-ionic-framework-ubuntu/
+
+
+after install it can created two zip folder , 
+
+1:-   I think  Androd.tar 
+2:-   I thing  node.tar 
+
+->>>>>  So dont't close the commmond :--    like   mv: cannot move `android-sdk-linux' to `android-sdk/android-sdk-linux': Directory not empty
+
+->>>>>  after that please give the permission by sudo chmod 777 -R /home/ubc/Desktop
+
+->>>>>  unzip the both .tar file/folder
+
+then commond automaticaly execute
+
+
+
+
+
+
+Install ScriptShell
+
+
+chmod 775 ubuntu_ionic_installer.sh
+sudo ./ubuntu_ionic_installer.sh
