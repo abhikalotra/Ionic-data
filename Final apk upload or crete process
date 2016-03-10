@@ -1,0 +1,29 @@
+IONIC FINAL APK
+
+1.. ionic  build --release android
+       after that crete the Licence or Certificate 
+
+Keytool find in c drive   like this    C:\Program Files\Java\jdk1.8.0_40\bin   // open this commond by just pressing shift+ mouse right click 
+
+2.. keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000   //this is not working because
+// the path not there ---its not working  
+
+
+2.. keytool -genkey -v -keystore E:\node\jakjesc\demo\platforms\android\build\outputs\apk/appkey.keystore -alias MyKey -keyalg RSA -keysize 2048 -validity 10000 
+//where build is present 
+// its working 
+NAME OF CERTIFICATE is  -----------   test.keystore
+
+
+3. jarsigner
+
+It can used after the certicicate you can you it by commond or softwate  ...  I am using the software with vedio tutorials 
+
+
+https://www.scirra.com/tutorials/861/how-to-sign-and-align-your-android-app-apk
+
+
+https://shatter-box.com/knowledgebase/android-apk-signing-tool-apk-signer/
+
+https://www.youtube.com/watch?v=Y59dfBcyRbU
+
