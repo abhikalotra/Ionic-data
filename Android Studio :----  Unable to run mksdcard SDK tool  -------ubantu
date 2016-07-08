@@ -1,0 +1,4 @@
+
+Android Studio :------------To resole this isse in ubantu  
+
+sudo apt-get install lib32stdc++6
