@@ -1,4 +1,8 @@
 
 Android Studio :------------To resole this isse in ubantu  
 
-sudo apt-get install lib32stdc++6
+URL:---  http://stackoverflow.com/questions/28847151/unable-to-install-android-studio-in-ubuntu
+
+$  sudo apt-get install lib32stdc++6
+
+
